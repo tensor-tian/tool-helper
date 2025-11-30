@@ -1,0 +1,49 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ToolRC Plugin > should match snapshot for tool object 1`] = `
+{
+  "concurrencyGroupName": "none",
+  "definition": "type FindServicePortParameters = {
+    /** The service command to find the port for */
+    command: string;
+};",
+  "description": "Find the tcp port listened by a service command",
+  "extra": {
+    "cmd": [
+      "$TOOL_PATH/find_service_port.sh",
+      "nginx",
+    ],
+    "env": {},
+    "isStream": false,
+    "sh": "",
+    "wd": "$TMPDIR/tool-hub",
+  },
+  "logLifeSpan": "48h",
+  "name": "findServicePort",
+  "parameters": "{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "command": {
+      "description": "The service command to find the port for",
+      "type": "string"
+    }
+  },
+  "required": [
+    "command"
+  ],
+  "additionalProperties": false
+}",
+  "schema": "{
+  "type": "object",
+  "properties": {
+    "command": {
+      "type": "string",
+      "description": "The service command to find the port for"
+    }
+  }
+}",
+  "timeout": "10s",
+  "type": "cmd",
+}
+`;

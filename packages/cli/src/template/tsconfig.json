@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    // Browser environment with ESM modules
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "moduleResolution": "bundler",
+
+    // Strict type checking
+    "strict": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true
+  },
+  "include": ["toolrc.ts"]
+}

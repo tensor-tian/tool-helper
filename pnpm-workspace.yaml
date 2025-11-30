@@ -1,0 +1,4 @@
+packages:
+   - "cli"
+   - "packages/**"
+   - "!packages/cli/src/template"

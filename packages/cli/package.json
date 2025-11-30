@@ -1,0 +1,40 @@
+{
+  "name": "tool-hub-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "type": "module",
+  "bin": {
+    "tool-hub-cli": "./dist/index.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./util": {
+      "types": "./dist/util.d.ts",
+      "default": "./dist/util.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src/template"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "esbuild": "^0.27.0",
+    "typescript": "^5.9.3"
+  },
+  "packageManager": "pnpm@10.15.0",
+  "dependencies": {
+    "zod": "^4.1.13"
+  }
+}

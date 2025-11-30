@@ -1,0 +1,99 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #333;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+h2,
+h3 {
+  color: #444;
+}
+
+.status {
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  color: #856404;
+}
+
+.status.success {
+  background: #d4edda;
+  border-color: #28a745;
+  color: #155724;
+}
+
+.status.error {
+  background: #f8d7da;
+  border-color: #dc3545;
+  color: #721c24;
+}
+
+.error-box {
+  background: #f8d7da;
+  border: 1px solid #dc3545;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.error-box h3 {
+  margin-top: 0;
+  color: #721c24;
+}
+
+.error-box pre {
+  background: #fff;
+  padding: 0.5rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  color: #721c24;
+}
+
+.tool-details {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  color: #333;
+}
+
+.detail-item {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.detail-item strong {
+  display: inline-block;
+  width: 120px;
+  color: #555;
+}
+
+.detail-section {
+  margin-top: 1.5rem;
+}
+
+.detail-section h3 {
+  color: #444;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+pre {
+  background: #f8f8f8;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #333;
+}
